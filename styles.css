@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(173, 66, 245);
+}
+
+#sounds{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+}
+.btn{
+	background-color: rgb(124, 40, 181);
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 2px;
+}
