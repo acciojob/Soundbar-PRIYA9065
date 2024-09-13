@@ -1,5 +1,9 @@
 //your JS code here. If required.
-while (audioElement.firstChild) {
+function playSound(soundFile) {
+  const audioElement = document.getElementById('audio');
+
+  // Clear any existing source elements
+  while (audioElement.firstChild) {
     audioElement.removeChild(audioElement.firstChild);
   }
 
